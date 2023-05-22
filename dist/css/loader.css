@@ -1,0 +1,392 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: radial-gradient(#5d5a74, #000116);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loader-container .loader {
+  position: relative;
+  width: 290px;
+  height: 290px;
+  animation: 1.25s ease-in-out 0s infinite both running loader;
+}
+@keyframes loader {
+  to {
+    transform: rotate(360deg);
+  }
+}
+.loader-container .loader div {
+  height: 109.94px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform-origin: top center;
+  display: flex;
+  flex-direction: column-reverse;
+  gap: 2px;
+}
+.loader-container .loader div:nth-child(1) {
+  transform: rotate(3.2142857143deg);
+}
+.loader-container .loader div:nth-child(29) {
+  transform: rotate(183.2142857143deg);
+}
+.loader-container .loader div:nth-child(2) {
+  transform: rotate(6.4285714286deg);
+}
+.loader-container .loader div:nth-child(30) {
+  transform: rotate(186.4285714286deg);
+}
+.loader-container .loader div:nth-child(3) {
+  transform: rotate(9.6428571429deg);
+}
+.loader-container .loader div:nth-child(31) {
+  transform: rotate(189.6428571429deg);
+}
+.loader-container .loader div:nth-child(4) {
+  transform: rotate(12.8571428571deg);
+}
+.loader-container .loader div:nth-child(32) {
+  transform: rotate(192.8571428571deg);
+}
+.loader-container .loader div:nth-child(5) {
+  transform: rotate(16.0714285714deg);
+}
+.loader-container .loader div:nth-child(33) {
+  transform: rotate(196.0714285714deg);
+}
+.loader-container .loader div:nth-child(6) {
+  transform: rotate(19.2857142857deg);
+}
+.loader-container .loader div:nth-child(34) {
+  transform: rotate(199.2857142857deg);
+}
+.loader-container .loader div:nth-child(7) {
+  transform: rotate(22.5deg);
+}
+.loader-container .loader div:nth-child(35) {
+  transform: rotate(202.5deg);
+}
+.loader-container .loader div:nth-child(8) {
+  transform: rotate(25.7142857143deg);
+}
+.loader-container .loader div:nth-child(36) {
+  transform: rotate(205.7142857143deg);
+}
+.loader-container .loader div:nth-child(9) {
+  transform: rotate(28.9285714286deg);
+}
+.loader-container .loader div:nth-child(37) {
+  transform: rotate(208.9285714286deg);
+}
+.loader-container .loader div:nth-child(10) {
+  transform: rotate(32.1428571429deg);
+}
+.loader-container .loader div:nth-child(38) {
+  transform: rotate(212.1428571429deg);
+}
+.loader-container .loader div:nth-child(11) {
+  transform: rotate(35.3571428571deg);
+}
+.loader-container .loader div:nth-child(39) {
+  transform: rotate(215.3571428571deg);
+}
+.loader-container .loader div:nth-child(12) {
+  transform: rotate(38.5714285714deg);
+}
+.loader-container .loader div:nth-child(40) {
+  transform: rotate(218.5714285714deg);
+}
+.loader-container .loader div:nth-child(13) {
+  transform: rotate(41.7857142857deg);
+}
+.loader-container .loader div:nth-child(41) {
+  transform: rotate(221.7857142857deg);
+}
+.loader-container .loader div:nth-child(14) {
+  transform: rotate(45deg);
+}
+.loader-container .loader div:nth-child(42) {
+  transform: rotate(225deg);
+}
+.loader-container .loader div:nth-child(15) {
+  transform: rotate(48.2142857143deg);
+}
+.loader-container .loader div:nth-child(43) {
+  transform: rotate(228.2142857143deg);
+}
+.loader-container .loader div:nth-child(16) {
+  transform: rotate(51.4285714286deg);
+}
+.loader-container .loader div:nth-child(44) {
+  transform: rotate(231.4285714286deg);
+}
+.loader-container .loader div:nth-child(17) {
+  transform: rotate(54.6428571429deg);
+}
+.loader-container .loader div:nth-child(45) {
+  transform: rotate(234.6428571429deg);
+}
+.loader-container .loader div:nth-child(18) {
+  transform: rotate(57.8571428571deg);
+}
+.loader-container .loader div:nth-child(46) {
+  transform: rotate(237.8571428571deg);
+}
+.loader-container .loader div:nth-child(19) {
+  transform: rotate(61.0714285714deg);
+}
+.loader-container .loader div:nth-child(47) {
+  transform: rotate(241.0714285714deg);
+}
+.loader-container .loader div:nth-child(20) {
+  transform: rotate(64.2857142857deg);
+}
+.loader-container .loader div:nth-child(48) {
+  transform: rotate(244.2857142857deg);
+}
+.loader-container .loader div:nth-child(21) {
+  transform: rotate(67.5deg);
+}
+.loader-container .loader div:nth-child(49) {
+  transform: rotate(247.5deg);
+}
+.loader-container .loader div:nth-child(22) {
+  transform: rotate(70.7142857143deg);
+}
+.loader-container .loader div:nth-child(50) {
+  transform: rotate(250.7142857143deg);
+}
+.loader-container .loader div:nth-child(23) {
+  transform: rotate(73.9285714286deg);
+}
+.loader-container .loader div:nth-child(51) {
+  transform: rotate(253.9285714286deg);
+}
+.loader-container .loader div:nth-child(24) {
+  transform: rotate(77.1428571429deg);
+}
+.loader-container .loader div:nth-child(52) {
+  transform: rotate(257.1428571429deg);
+}
+.loader-container .loader div:nth-child(25) {
+  transform: rotate(80.3571428571deg);
+}
+.loader-container .loader div:nth-child(53) {
+  transform: rotate(260.3571428571deg);
+}
+.loader-container .loader div:nth-child(26) {
+  transform: rotate(83.5714285714deg);
+}
+.loader-container .loader div:nth-child(54) {
+  transform: rotate(263.5714285714deg);
+}
+.loader-container .loader div:nth-child(27) {
+  transform: rotate(86.7857142857deg);
+}
+.loader-container .loader div:nth-child(55) {
+  transform: rotate(266.7857142857deg);
+}
+.loader-container .loader div:nth-child(28) {
+  transform: rotate(90deg);
+}
+.loader-container .loader div:nth-child(56) {
+  transform: rotate(270deg);
+}
+.loader-container .loader div span {
+  width: 2px;
+  height: 2px;
+  border-radius: 1px;
+}
+.loader-container .loader div span:nth-child(1) {
+  animation: 0.625s linear 1s infinite alternate dot;
+}
+.loader-container .loader div span:nth-child(2) {
+  animation: 0.625s linear 0.5s infinite alternate dot;
+}
+.loader-container .loader div span:nth-child(3) {
+  animation: 0.625s linear 0.3333333333s infinite alternate dot;
+}
+.loader-container .loader div span:nth-child(4) {
+  animation: 0.625s linear 0.25s infinite alternate dot;
+}
+.loader-container .loader div span:nth-child(5) {
+  animation: 0.625s linear 0.2s infinite alternate dot;
+}
+.loader-container .loader div span:nth-child(6) {
+  animation: 0.625s linear 0.1666666667s infinite alternate dot;
+}
+.loader-container .loader div span:nth-child(7) {
+  animation: 0.625s linear 0.1428571429s infinite alternate dot;
+}
+.loader-container .loader div span:nth-child(8) {
+  animation: 0.625s linear 0.125s infinite alternate dot;
+}
+.loader-container .loader div span:nth-child(9) {
+  animation: 0.625s linear 0.1111111111s infinite alternate dot;
+}
+.loader-container .loader div span:nth-child(10) {
+  animation: 0.625s linear 0.1s infinite alternate dot;
+}
+.loader-container .loader div span:nth-child(11) {
+  animation: 0.625s linear 0.0909090909s infinite alternate dot;
+}
+.loader-container .loader div span:nth-child(12) {
+  animation: 0.625s linear 0.0833333333s infinite alternate dot;
+}
+.loader-container .loader div span:nth-child(13) {
+  animation: 0.625s linear 0.0769230769s infinite alternate dot;
+}
+.loader-container .loader div span:nth-child(14) {
+  animation: 0.625s linear 0.0714285714s infinite alternate dot;
+}
+.loader-container .loader div span:nth-child(15) {
+  animation: 0.625s linear 0.0666666667s infinite alternate dot;
+}
+.loader-container .loader div span:nth-child(16) {
+  animation: 0.625s linear 0.0625s infinite alternate dot;
+}
+.loader-container .loader div span:nth-child(17) {
+  animation: 0.625s linear 0.0588235294s infinite alternate dot;
+}
+.loader-container .loader div span:nth-child(18) {
+  animation: 0.625s linear 0.0555555556s infinite alternate dot;
+}
+.loader-container .loader div span:nth-child(19) {
+  animation: 0.625s linear 0.0526315789s infinite alternate dot;
+}
+.loader-container .loader div span:nth-child(20) {
+  animation: 0.625s linear 0.05s infinite alternate dot;
+}
+.loader-container .loader div span:nth-child(21) {
+  animation: 0.625s linear 0.0476190476s infinite alternate dot;
+}
+.loader-container .loader div span:nth-child(22) {
+  animation: 0.625s linear 0.0454545455s infinite alternate dot;
+}
+.loader-container .loader div span:nth-child(23) {
+  animation: 0.625s linear 0.0434782609s infinite alternate dot;
+}
+.loader-container .loader div span:nth-child(24) {
+  animation: 0.625s linear 0.0416666667s infinite alternate dot;
+}
+.loader-container .loader div span:nth-child(25) {
+  animation: 0.625s linear 0.04s infinite alternate dot;
+}
+.loader-container .loader div span:nth-child(26) {
+  animation: 0.625s linear 0.0384615385s infinite alternate dot;
+}
+.loader-container .loader div span:nth-child(27) {
+  animation: 0.625s linear 0.037037037s infinite alternate dot;
+}
+.loader-container .loader div span:nth-child(28) {
+  animation: 0.625s linear 0.0357142857s infinite alternate dot;
+}
+.loader-container .loader div span:nth-child(29) {
+  animation: 0.625s linear 0.0344827586s infinite alternate dot;
+}
+.loader-container .loader div span:nth-child(30) {
+  animation: 0.625s linear 0.0333333333s infinite alternate dot;
+}
+.loader-container .loader div span:nth-child(31) {
+  animation: 0.625s linear 0.0322580645s infinite alternate dot;
+}
+.loader-container .loader div span:nth-child(32) {
+  animation: 0.625s linear 0.03125s infinite alternate dot;
+}
+.loader-container .loader div span:nth-child(33) {
+  animation: 0.625s linear 0.0303030303s infinite alternate dot;
+}
+.loader-container .loader div span:nth-child(34) {
+  animation: 0.625s linear 0.0294117647s infinite alternate dot;
+}
+.loader-container .loader div span:nth-child(35) {
+  animation: 0.625s linear 0.0285714286s infinite alternate dot;
+}
+.loader-container .loader div span:nth-child(36) {
+  animation: 0.625s linear 0.0277777778s infinite alternate dot;
+}
+.loader-container .loader div span:nth-child(37) {
+  animation: 0.625s linear 0.027027027s infinite alternate dot;
+}
+.loader-container .loader div span:nth-child(38) {
+  animation: 0.625s linear 0.0263157895s infinite alternate dot;
+}
+.loader-container .loader div span:nth-child(39) {
+  animation: 0.625s linear 0.0256410256s infinite alternate dot;
+}
+.loader-container .loader div span:nth-child(40) {
+  animation: 0.625s linear 0.025s infinite alternate dot;
+}
+.loader-container .loader div span:nth-child(41) {
+  animation: 0.625s linear 0.0243902439s infinite alternate dot;
+}
+.loader-container .loader div span:nth-child(42) {
+  animation: 0.625s linear 0.0238095238s infinite alternate dot;
+}
+.loader-container .loader div span:nth-child(43) {
+  animation: 0.625s linear 0.023255814s infinite alternate dot;
+}
+.loader-container .loader div span:nth-child(44) {
+  animation: 0.625s linear 0.0227272727s infinite alternate dot;
+}
+.loader-container .loader div span:nth-child(45) {
+  animation: 0.625s linear 0.0222222222s infinite alternate dot;
+}
+.loader-container .loader div span:nth-child(46) {
+  animation: 0.625s linear 0.0217391304s infinite alternate dot;
+}
+.loader-container .loader div span:nth-child(47) {
+  animation: 0.625s linear 0.0212765957s infinite alternate dot;
+}
+.loader-container .loader div span:nth-child(48) {
+  animation: 0.625s linear 0.0208333333s infinite alternate dot;
+}
+.loader-container .loader div span:nth-child(49) {
+  animation: 0.625s linear 0.0204081633s infinite alternate dot;
+}
+.loader-container .loader div span:nth-child(50) {
+  animation: 0.625s linear 0.02s infinite alternate dot;
+}
+.loader-container .loader div span:nth-child(51) {
+  animation: 0.625s linear 0.0196078431s infinite alternate dot;
+}
+.loader-container .loader div span:nth-child(52) {
+  animation: 0.625s linear 0.0192307692s infinite alternate dot;
+}
+.loader-container .loader div span:nth-child(53) {
+  animation: 0.625s linear 0.0188679245s infinite alternate dot;
+}
+.loader-container .loader div span:nth-child(54) {
+  animation: 0.625s linear 0.0185185185s infinite alternate dot;
+}
+.loader-container .loader div span:nth-child(55) {
+  animation: 0.625s linear 0.0181818182s infinite alternate dot;
+}
+.loader-container .loader div span:nth-child(56) {
+  animation: 0.625s linear 0.0178571429s infinite alternate dot;
+}
+@keyframes dot {
+  0% {
+    background-color: #79e0ee;
+  }
+  40% {
+    background-color: #98eecc;
+  }
+  60% {
+    background-color: #d0f5be;
+  }
+  80% {
+    background-color: #fbffdc;
+  }
+}
+
+/*# sourceMappingURL=loader.css.map */
